@@ -7,3 +7,9 @@ echo $0 ==> to check curret shell
 
 chsh
     /bin/zsh
+   
+and restart or logout and login back
+
+and open terminal and press 2 for selecting the 2nd option listed above
+
+installing oh-my-zsh
