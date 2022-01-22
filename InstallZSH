@@ -1,0 +1,9 @@
+sudo apt install zsh
+
+donwload and install firacode nerd font normal or regular
+
+
+echo $0 ==> to check curret shell
+
+chsh
+    /bin/zsh
