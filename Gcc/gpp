@@ -1,0 +1,10 @@
+sudo apt install gcc
+sudo apt install g++ 
+g++ --version
+
+g++ -o a a.cpp -std=c++17
+./a
+
+sudo apt remove g++
+sudo apt purge g++
+sudo apt autoremove
