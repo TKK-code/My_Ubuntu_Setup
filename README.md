@@ -54,3 +54,39 @@ sudo apt update && sudo apt install microsoft-edge-stable
 ```
 sudo apt install telegram-desktop
 ```
+
+## installation of java
+*Download the debain package for* 
+```
+https://www.oracle.com/java/technologies/downloads/
+```
+### Installation
+```
+sudo dpkg -i File_Name
+```
+
+ls / usr/lib/jvm ==> Check wheather installed or not
+change to the current version (17)
+```
+sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-17/bin/java 1
+
+sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk-17/bin/javac 1
+
+JAVA_HOME=/usr/lib/jvm/jdk-17/bin/java
+```
+
+***SET JAVA HONE ENVIROMENT VARIABLE*** 
+```
+sudo update-alternatives --config java
+
+sudo gedit /etc/profile
+
+JAVA_HOME= /usr/lib/jvm/jdk-17/bin
+
+and save file and close file
+
+source /etc/profile
+
+echo $JAVA_HOME
+
+```
