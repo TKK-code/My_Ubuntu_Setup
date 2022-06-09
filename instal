@@ -36,7 +36,7 @@ sudo apt install geany-plugins
 
 sudo apt install cargo
 
-echo "lunar vim"
+-- "lunar vim"
 
 mkdir ~/.npm-global
 
@@ -51,5 +51,12 @@ npm install -g jshint
 bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/installer/install.sh)
 
 
+-- Alacritty
 
+sudo add-apt-repository ppa:aslatter/ppa
 
+sudo apt install alacritty
+
+sudo apt remove --auto-remove alacritty
+
+sudo add-apt-repository --remove ppa:aslatter/ppa
