@@ -7,7 +7,7 @@ sudo apt update
 sudo apt upgrade
 ```
 
-## Git Installations
+## git Installation
 ```
 sudo apt install git
 ```
