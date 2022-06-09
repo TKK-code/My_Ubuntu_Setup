@@ -37,6 +37,14 @@ sudo apt install g++-14
 ```
 sudo apt install python3-pip
 ```
+
+## Neovim and Gvim
+
+```
+sudo apt install neovim
+sudo apt install vim-gtk3
+```
+
 ## Installation of Microsoft edge
 ```
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
