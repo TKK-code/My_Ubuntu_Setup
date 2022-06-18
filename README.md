@@ -31,6 +31,10 @@ sudo apt instal -y curl
 ```
 sudo apt install -y nodejs
 ```
+## npm 
+```
+sudo apt install npm
+```
 
 ## Installation of cargo
 ```
