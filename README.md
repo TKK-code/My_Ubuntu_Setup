@@ -59,6 +59,23 @@ sudo apt install neovim
 sudo apt install vim-gtk3
 ```
 
+## Insatlling cmake
+```
+sudo apt install cmake --classic	
+```
+## Installing rustup
+
+```
+sudo apt install rustup -classic
+```
+## Installing alacritty
+
+```
+git clone https://github.com/alacritty/alacritty
+cd alacritty
+cargo build --release
+```
+
 ## Installation of Microsoft edge
 ```
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
