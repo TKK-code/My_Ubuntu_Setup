@@ -104,9 +104,9 @@ https://www.oracle.com/java/technologies/downloads/
 sudo dpkg -i File_Name
 ```
 
-ls / usr/lib/jvm ==> Check wheather installed or not
+* ls / usr/lib/jvm * ==> Check wheather jvm is installed or not
 
-*change to the current version (17)*
+>  change to the current version (17)
 ```
 sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-17/bin/java 1
 
