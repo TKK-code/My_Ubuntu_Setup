@@ -1,0 +1,19 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"font_size":18,
+	"font_face":"FiraCode Nerd Font Mono Medium",
+	"word_wrap": "true",
+	"caret_style": "phase",
+	"match_brackets": true,
+	"match_brackets_square": true,
+	"tab_size": 4,
+	"draw_minimap_border": true,
+
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"theme": "Default Dark.sublime-theme",
+	"color_scheme": "Monokai.sublime-color-scheme",
+}

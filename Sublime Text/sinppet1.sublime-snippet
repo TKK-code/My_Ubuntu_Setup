@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+	#ifndef ONLINE_JUDGE
+		freopen("input.txt","r",stdin); 
+		freopen("output.txt","w",stdout);
+	#endif
+
+	cout << "Hello World." << endl;
+
+	return 0;
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cpp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.cpp</scope> -->
+</snippet>
+	
